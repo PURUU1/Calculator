@@ -18,7 +18,15 @@ function c(){
 }
 
 function calculate(){
+  try{
+    
   console.log("calculate")
   dis.value = eval(dis.value);
+  }
+  catch(e){
+    console.log("error")
+    dis.value = "error";
+    dis.style.color = "red";
+  }
   
 }
