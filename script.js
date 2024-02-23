@@ -26,7 +26,8 @@ function calculate(){
   catch(e){
     console.log("error")
     dis.value = "error";
-    dis.style.color = "red";
+    
   }
+
   
 }
