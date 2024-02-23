@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+  <div class="main">
+  <div class="cal">
+  <div class="dislay">
+    <input class="displayscreen" readonly>
+  </div>    
+  </div>
+  <div id="keys">
+    <div class="key-c">
+      <button class="key" onclick="append('7')">7</button>
+      <button class="key"onclick="append('8')">8</button>
+      <button class="key"onclick="append('9')">9</button>
+      <button class="key s" id="a" onclick="calculate()">=</button>
+      <button class="key"onclick="append('4')">4</button>
+      <button class="key" onclick="append('5')">5</button>
+      <button class="key" onclick="append('6')">6</button>
+      <button class="key s"onclick="append('*')">*</button>
+      <button class="key"onclick="append('1')">1</button>
+      <button class="key"onclick="append('2')">2</button>
+      <button class="key"onclick="append('3')">3</button>
+      <button class="key s"onclick="append('-')">-</button>
+      <button class="key s" onclick="c()">C</button>
+      <button class="key" onclick="append('0')">0</button>
+      <button class="key s" onclick="append('.')">.</button>
+      <button class="key s" onclick="append('+')">+</button>    
+    </div>
+  </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

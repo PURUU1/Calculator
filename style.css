@@ -1,0 +1,77 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+  *{
+    padding: 0;
+
+    margin: 0;
+  }
+body{
+display: flex;
+justify-content: center;
+align-items: center;
+
+height: 100vh;
+}
+  .main{
+    padding-top: 4rem;
+    padding: 20px;
+    border-radius: 25px;
+    background-color: black;
+  }
+  .displayscreen{
+    text-align: right;
+    
+    font-size: 3rem;
+    background-color: #857575;
+    color: white;
+  }
+  .dislay input{
+    width: 100%;
+    height: 100px;
+    border-radius: 25px;
+    
+
+  }
+  button{
+    background-color: #252242;
+    width: 100px;
+    height: 100px;
+    color: white;
+  }
+  .key{
+    font-size: 2rem;
+    border: none;
+    border-radius: 50px;
+
+  }
+  .key-c{
+    padding: 20px;
+    border-radius: 25px;
+    background-color: black;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+
+    gap: 20px;
+  }
+  .s{
+    background-color: #857575;
+    color: #252242;
+  }
+
+  /* //effects */
+  .key:hover{
+    opacity:0.75;
+  }  
+  .key:active{
+    opacity:0.5;
+    color: white;
+   border: 5px solid  #857575;; 
+  }
+  .s:active{
+     border: 5px solid #252242; 
+  }
